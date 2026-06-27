@@ -394,9 +394,9 @@ The catalog JSON structure:
 
 ### Getting Help
 
-- 📧 **Email**: support@modernomaniкitchens.om
-- 💬 **WhatsApp**: [Contact Sales](https://wa.me/+968xxxxxxxxxx)
-- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/your-username/kitchen-calculator-oman/issues)
+- 📧 **Email**: tarekattallah00@gmail.com
+- 💬 **WhatsApp**: [Contact Sales](https://wa.me/+201061258009)
+- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/Tarekattallah)
 
 ### Documentation
 
@@ -411,7 +411,7 @@ The catalog JSON structure:
 
 ### Copyright Notice
 
-All rights reserved © 2024 **Modern Omani Kitchens**. This software and all associated documentation, designs, and source code are proprietary and confidential.
+All rights reserved © 2026 **Modern Omani Kitchens**. This software and all associated documentation, designs, and source code are proprietary and confidential.
 
 ### License Agreement
 
@@ -443,7 +443,7 @@ All Omani Rial (OMR) prices are calibrated to current market standards and facto
 ### Current Version
 - **Version**: 1.0.0
 - **Status**: Production Ready ✅
-- **Last Updated**: June 2024
+- **Last Updated**: June 2026
 
 ### Upcoming Features (Planned)
 - [ ] Multi-language support (Arabic/English)
@@ -464,11 +464,8 @@ All Omani Rial (OMR) prices are calibrated to current market standards and facto
 - **Uptime**: 99.9% (Vercel SLA)
 
 ---
-
-<div align="center">
-
 ### Built with ❤️ for the Omani Market
 
-**[Live Demo](https://kitchen-calculator-management-syste.vercel.app/)** • **[Report Issue](https://github.com)** • **[Request Feature](https://github.com)**
+**[Live Demo](https://kitchen-calculator-management-syste.vercel.app/)** •
 
-</div>
+
