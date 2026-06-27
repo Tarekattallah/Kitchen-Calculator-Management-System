@@ -53,15 +53,21 @@ function saveCatalog(data: any) {
   }
 }
 
+// Middleware for logging
+app.use((req, res, next) => {
+  console.log(`[Vercel Serverless] Incoming request: ${req.method} ${req.url}`);
+  next();
+});
+
 // ==========================================
-// API ENDPOINTS
+// API ENDPOINTS (Supporting multiple route matching for Vercel/Express routing compatibility)
 // ==========================================
 
-app.get("/api/catalog", (req, res) => {
+app.get(["/api/catalog", "/catalog", "/api/index/catalog", "/api/index.ts/catalog"], (req, res) => {
   res.json(getCatalog());
 });
 
-app.post("/api/catalog", (req, res) => {
+app.post(["/api/catalog", "/catalog", "/api/index/catalog", "/api/index.ts/catalog"], (req, res) => {
   const newCatalog = req.body;
   if (!newCatalog || typeof newCatalog !== "object") {
     return res.status(400).json({ error: "Invalid catalog format" });
@@ -74,7 +80,7 @@ app.post("/api/catalog", (req, res) => {
   }
 });
 
-app.post("/api/catalog/reset", (req, res) => {
+app.post(["/api/catalog/reset", "/catalog/reset", "/api/index/catalog/reset", "/api/index.ts/catalog/reset"], (req, res) => {
   const success = saveCatalog(initialCatalogData);
   if (success) {
     res.json({ status: "success", catalog: initialCatalogData });
