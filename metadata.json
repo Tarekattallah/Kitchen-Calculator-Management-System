@@ -1,0 +1,6 @@
+{
+  "name": "حاسبة المطابخ العُمانية",
+  "description": "حاسبة متكاملة لتسعير تفاصيل المطابخ بالريال العماني مع لوحة تحكم متقدمة لإدارة الموارد والمواد والأسعار لحظيًا.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
